@@ -80,8 +80,8 @@ img {
   pointer-events: none;
   opacity: .22;
   background-image:
-    linear-gradient(45deg, rgba(0, 163, 143, 0.14) 25%, transparent 25%),
-    linear-gradient(-45deg, rgba(0, 80, 73, 0.1) 25%, transparent 25%);
+    linear-gradient(45deg, rgba(184, 70, 255, 0.14) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(211, 34, 238, 0.1) 25%, transparent 25%);
   background-size: 54px 54px;
   mask-image: linear-gradient(to bottom, black, transparent 72%);
 }
@@ -97,7 +97,7 @@ img {
   padding: 14px 16px;
   border: 1px solid var(--border);
   border-radius: 18px;
-  background: rgba(12, 7, 16, 0.72);
+  background: var(--panel);
   backdrop-filter: blur(16px);
   box-shadow: var(--shadow);
 }
@@ -261,8 +261,8 @@ h1 {
   min-height: 410px;
   padding: 28px;
   border-radius: 28px;
-  border: 1px solid rgba(212, 70, 255, 0.26);
-  background: linear-gradient(180deg, rgba(30, 18, 37, 0.88), rgba(16, 9, 20, 0.72));
+  border: 1px solid rgba(0, 163, 143, 0.26);
+  background: linear-gradient(180deg, rgba(6, 23, 20, 0.88), rgba(8, 30, 26, 0.72));
   box-shadow: var(--shadow);
   overflow: hidden;
 }
@@ -272,7 +272,7 @@ h1 {
   position: absolute;
   inset: auto -40px -80px -40px;
   height: 190px;
-  background: radial-gradient(circle, rgba(238, 34, 214, 0.22), transparent 70%);
+  background: radial-gradient(circle, rgba(0, 163, 143, 0.22), transparent 70%);
 }
 
 .hero-card h2 {
