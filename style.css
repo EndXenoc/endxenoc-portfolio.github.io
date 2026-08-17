@@ -212,10 +212,10 @@ h1 {
 }
 
 .primary {
-  background: linear-gradient(135deg, var(--accent-2), #00d4b8);
+  background: linear-gradient(135deg, #00d4b8, #00f2d0);
   color: #0d0610;
   border-color: transparent;
-  box-shadow: 0 14px 42px rgba(175, 70, 255, 0.25);
+  box-shadow: 0 14px 42px rgba(0, 212, 184, 0.4);
 }
 
 .secondary,
